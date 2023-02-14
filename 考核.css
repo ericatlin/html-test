@@ -1,0 +1,118 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.up-head{
+    width: 80%;
+    height: 4vw;
+    background-color: rgb(68, 68, 73);
+    padding: 0 10% 0 10%;
+}
+.head-item{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84, 109, 109, 0);
+    display: flex;
+    
+}
+p{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+.item{
+    flex-grow: 1;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: rgb(180, 180, 180);
+}
+.item-img{
+    width: 40%;
+    height: 40%;
+}
+.item-img img{
+    height: 100%;
+}
+.a-white-box{
+    width: 80%;
+    padding: 0 10% 0 10%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+.a-litle-text{
+    width: 80%;
+    padding: 0 10% 0 10%;
+    height: 4vw;
+    background-color: rgb(224, 224, 224);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.452);
+}
+.main-info{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.left-info{
+    height: 100%;
+    width: 40%;
+}
+.right-img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lil-imgtxt{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+}
+.lil-imgtxt img{
+    width:20px;
+
+    height: 20px;
+    margin-top: 5px;
+}
+.join-btn{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33, 76, 216);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    
+
+}
+.mark{ 
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.mark img{
+    width: 100%;
+}
